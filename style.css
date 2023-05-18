@@ -1,5 +1,5 @@
 body {
-    background-color: #444;
+    background-color: #555;
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -91,14 +91,22 @@ footer p {
     backdrop-filter: brightness(50%);
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.textBox {
+    box-sizing: border-box;
+    min-width: 40vw;
+    padding: 10px;
+    margin: 20px;
+    background-color: #999;
+}
+.textBox * {
+    margin: 0;
 }
 
-.textBox {
-    width: 50vw;
-    margin: auto;
-    background-color: #999;
+.center {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin-top: inherit;
+    margin-left: auto;
+    margin-right: auto;
 }
